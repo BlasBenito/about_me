@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: center, middle
+class: left middle
 
 ```{r loadpackages, echo = FALSE, message = FALSE, warning = FALSE}
 #required libraries
@@ -120,11 +120,6 @@ ul li::before {
 }
 ```
 
-
-.center[.large[ Full profile available at: [www.blasbenito.com](https://www.blasbenito.com)]]
-
----
-class: left middle
 # Education
 
 - 2003 Degree in Biology
@@ -165,8 +160,68 @@ knitr::include_graphics("figures/map.png")
 ```
 
 ---
+class: left middle
+.center[
+.small[**Spatio-temporal scope**]
+.small[
+Local (10m<sup>2</sup>) to Global, 130kaBP to 2100.
+]
+]
+
+.pull-left[
+.small[**Responses**]
+
+.tiny[
+- Biodiversity metrics
+- Phenological indices
+- Frost risk
+- Species interactions
+- Soil carbon
+]
+]
+
+.pull-right[
+.small[**Predictors**]
+
+.tiny[
+- Climate
+- Topography
+- Remote sensing
+- Soil data
+- Land-use
+]
+]
+
+---
 class: center middle
+#Methods
+
+```{r echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("figures/methods.png")
+```
+
+---
+class: center middle
+#Workflow
 
 ```{r echo=FALSE, out.width="100%", out.height="100%"}
 knitr::include_graphics("figures/toolset.png")
 ```
+
+---
+class: left middle
+#R development
+
+- `spatialRF`: spatial modelling with Random Forest.
+- `distantia`: time-series comparison.
+- `memoria`: time-series memory analysis.
+- `virtualPollen`: mechanistic population model.
+
+---
+class: center middle
+
+.large[If you need to know more: [www.blasbenito.com](https://www.blasbenito.com)]
+
+---
+class: center middle
+#That's all, thank you!
